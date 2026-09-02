@@ -1,6 +1,6 @@
 # Modelo de Camadas
 
-## [01/09/2026] — Fonte: Estudo autônomo (mentoria com IA)
+## [02/09/2026] — Fonte: Estudo autônomo (mentoria com IA)
 
 Tudo que precisa acontecer para uma mensagem chegar até seu destino — transformar a ideia em texto, garantir que o texto chegue completo e sem erros, saber para qual endereço mandar, e transformar tudo isso em sinal elétrico ou onda de rádio para viajar pelo cabo ou pelo ar — são problemas de natureza completamente diferente entre si, não a mesma tarefa em escalas diferentes. Por isso a comunicação de rede foi dividida em camadas: cada camada resolve seu próprio problema, confiando que as outras camadas resolvem a parte delas, sem precisar entender como.
 
