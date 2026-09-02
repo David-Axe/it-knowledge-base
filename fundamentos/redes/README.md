@@ -1,6 +1,6 @@
 # Redes
 
-## [01/09/2026] — Fonte: Estudo autônomo (mentoria com IA)
+## [02/09/2026] — Fonte: Estudo autônomo (mentoria com IA)
 
 Rede de computadores é a conexão dos computadores entre si, com a finalidade de transportar dados. Essa conexão pode ser física no sentido de objetos palpáveis, como um cabo, ou física em sentido mais amplo — como as ondas eletromagnéticas usadas pelo Wi-Fi, que não são um objeto tangível, mas continuam sendo um fenômeno físico real.
 
