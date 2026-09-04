@@ -36,3 +36,25 @@ O mesmo diagrama pode ser lido de formas diferentes dependendo do papel de quem 
 - **Perspectiva conceitual:** o diagrama representa algo do mundo real ou do domínio de negócio (cliente, pedido, produto) — típica de quem está levantando requisitos.
 - **Perspectiva de especificação:** representa abstrações de software (componentes, interfaces), sem se comprometer com uma linguagem específica.
 - **Perspectiva de implementação:** representa o código já numa tecnologia concreta (Java, Python etc.) — o olhar de quem está desenvolvendo.
+
+- ---
+
+## Nova entrada — 04/09/2026 (continuação)
+
+**Os cinco diagramas mais usados**
+
+Além da introdução ao UML, existem cinco diagramas mais usados para representar um sistema: atividades, casos de uso, sequência, classe e estado. O diagrama de atividades mostra o fluxo de um processo, uma sequência de tarefas acontecendo uma depois da outra. O diagrama de casos de uso mostra a interação entre o sistema e o usuário, de forma mais abstrata, sem entrar em como isso acontece por dentro. O diagrama de classe mostra a estrutura estática: o que existe no sistema e como as partes se relacionam. O diagrama de estado mostra como o sistema (ou algo dentro dele, como um pedido) reage a eventos, mudando de uma condição para outra.
+
+**Diagrama de atividades x diagrama de estado**
+
+O diagrama de atividades descreve o processo, a tarefa em execução — uma sequência de ações acontecendo uma depois da outra. No caso de um pedido de móvel numa marcenaria, seria algo como: conversar com o cliente, elaborar o projeto, fechar o pedido, cobrar a entrada, calcular chapas e peças, cortar na CNC, montar o móvel, transportar, instalar, cobrar o valor final e fazer o pós-venda. É o "fazer" — cada etapa leva à próxima.
+
+O diagrama de estado é diferente: ele não descreve a tarefa em execução, mas a situação em que algo se encontra em um dado momento, e o que faz essa situação mudar. Essa mudança é disparada por um evento, e um mesmo estado pode ter mais de um caminho possível a partir dele (uma bifurcação) — o que não acontece numa lista de atividades puramente linear.
+
+Um exemplo de estado, ainda na marcenaria: "móvel instalado, aguardando aprovação do cliente". Se o cliente aprova (evento), o pedido passa para o estado "aguardando cobrança". Do outro lado dessa mesma bifurcação, se o cliente não aprova, o pedido iria para outro estado (a definir — provavelmente algo como "ajuste solicitado" ou "revisão do móvel"), em vez de seguir direto para a cobrança.
+
+**Diagrama de sequência x diagrama de comunicação**
+
+Esses dois diagramas mostram a mesma informação — quais mensagens são trocadas entre os objetos de um sistema — mas de formas diferentes. O diagrama de sequência usa a posição vertical (de cima para baixo) para indicar a ordem das mensagens. O diagrama de comunicação usa números escritos ao lado das setas para indicar essa ordem, e organiza os objetos livremente, sem depender de uma linha do tempo vertical.
+
+O diagrama de sequência é mais fácil de ler, porque a ordem já está visualmente clara. Já o diagrama de comunicação é mais fácil de desenhar rápido, porque não precisa "esticar" o diagrama para a direita a cada novo objeto — o que faz sentido com a ideia de "UML como rascunho" vista anteriormente: comunicação tende a ser mais usado como rascunho rápido, e sequência como documentação mais detalhada.
