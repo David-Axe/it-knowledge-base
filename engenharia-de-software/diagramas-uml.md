@@ -37,7 +37,7 @@ O mesmo diagrama pode ser lido de formas diferentes dependendo do papel de quem 
 - **Perspectiva de especificação:** representa abstrações de software (componentes, interfaces), sem se comprometer com uma linguagem específica.
 - **Perspectiva de implementação:** representa o código já numa tecnologia concreta (Java, Python etc.) — o olhar de quem está desenvolvendo.
 
-- ---
+----
 
 ## Nova entrada — 04/09/2026 (continuação)
 
@@ -74,3 +74,31 @@ O diagrama de casos de uso mostra quem interage com o sistema e o que essas pess
 **Exemplo (marcenaria):** os atores seriam o cliente e o projetista. Os casos de uso: Projetar, Aprovar, Confeccionar e Acrescentar. Confeccionar inclui obrigatoriamente Aprovar (não dá pra confeccionar sem o projeto ter sido aprovado antes). Acrescentar estende Aprovar (é uma variação opcional, que só acontece às vezes, durante o processo de aprovação).
 
 **Cenário x caso de uso — uma dúvida importante que resolvi durante o estudo:** no início, pensei que um cenário viria depois do caso de uso — por exemplo, que "aprovado sem mudança", "aprovado com acréscimo" e "reprovado por orçamento" seriam consequências posteriores do caso de uso Aprovar. Mas não é assim: o cenário é um caminho através do próprio caso de uso, não algo que vem depois dele. É como perguntar se o gol aconteceu antes ou depois da jogada — não faz sentido, porque o gol é uma das formas possíveis de a própria jogada terminar, não uma coisa que vem depois. Da mesma forma, "aprovado sem mudança" e as outras variações não vêm depois do caso de uso Aprovar — elas são o próprio Aprovar acontecendo de diferentes formas possíveis.
+
+---
+
+## Nova entrada — 05/09/2026
+
+## Especificação de Casos de Uso
+
+A especificação de casos de uso é um texto detalhado que acompanha o diagrama de casos de uso, descrevendo com precisão o que acontece em cada caso — os caminhos possíveis, as condições e os resultados — sem entrar em como o sistema implementa isso. Ela existe porque o diagrama sozinho é enxuto demais: mostra quais casos de uso existem e quem os aciona, mas não diz, por exemplo, o que acontece se um campo obrigatório for deixado em branco. Mesmo assim, a especificação continua em alto nível, porque não é usada apenas pelo time de desenvolvimento — clientes e gerentes também precisam entendê-la.
+
+Modelo RUP (Rational Unified Process): um formato comum de especificação textual possui oito campos: nome do caso de uso, breve descrição, fluxo básico (o caminho padrão de sucesso), fluxos alternativos (os desvios, que podem conter subfluxos), requisitos especiais (exigências que não aparecem na narrativa, como tempo de resposta), condições prévias (o que precisa ser verdade antes de o caso de uso executar), condições posteriores (o que precisa ser verdade depois que ele termina) e pontos de extensão (onde esse caso de uso pode se conectar a outro através de extend).
+
+Diagramas comportamentais x estruturais: a UML separa os diagramas em comportamentais (descrevem o que o sistema faz — caso de uso, atividades, sequência, estado) e estruturais (descrevem o que existe — como o diagrama de classes). A especificação de casos de uso normalmente é produzida antes do diagrama de atividades, porque fornece uma visão mais ampla e geral do comportamento do sistema, que depois pode ser detalhada passo a passo pelo diagrama de atividades.
+
+Pré-condição e pós-condição — uma dúvida que resolvi durante o estudo: a pré-condição é aquilo que já precisa ser verdadeiro antes da execução do caso de uso. A pós-condição não é apenas uma frase resumindo o resultado final, mas um conjunto de fatos concretos e verificáveis que passam a ser verdade ao término de um determinado cenário. Como um mesmo caso de uso pode possuir mais de um cenário (sucesso, reprovação, cancelamento etc.), cada cenário possui suas próprias pós-condições.
+
+Aplicando isso ao exemplo da marcenaria, no caso de uso "Aprovar", a pré-condição é que o projeto tenha sido concluído e enviado ao cliente. No cenário de sucesso, as pós-condições são: o projeto está marcado como aprovado, o cliente recebeu a confirmação e o caso de uso "Confeccionar" está liberado para iniciar. No cenário de reprovação, as pós-condições são: o projeto está marcado como reprovado, as observações do cliente foram registradas e um novo ciclo de "Projetar" (ajuste) está liberado para começar.
+
+## Ajustes e refinamentos a conceitos anteriores
+
+Os cinco diagramas não são obrigatórios. Na entrada anterior, apresentei cinco diagramas bastante utilizados (atividades, casos de uso, sequência, classes e estado). Durante a continuação do estudo, ficou mais claro que não existe uma sequência fixa de utilização nem a necessidade de empregar todos eles em um projeto. A escolha dos diagramas depende da necessidade de cada sistema. Um projeto simples pode exigir apenas alguns deles, enquanto projetos mais complexos podem justificar o uso de vários.
+
+Também ficou mais consolidado para mim como esses diagramas se distribuem ao longo do processo de desenvolvimento — algo que já estava implícito na estrutura da minha primeira entrada sobre esse tema (que começava pela fase de projeto e só depois introduzia o UML), mas que na hora não tinha profundidade suficiente para realmente fazer sentido. Em geral, os diagramas pertencem à fase de projeto (design), que ocorre após o levantamento de requisitos. Entretanto, o caso de uso possui uma característica especial: ele já começa a aparecer ainda na etapa de requisitos, funcionando como uma ponte entre o entendimento do negócio e o projeto do sistema.
+
+UML como "biblioteca com protocolo interno", não como protocolo puro. Em uma entrada anterior, comparei a UML como um todo a um protocolo de comunicação, semelhante ao TCP/IP. Durante a revisão do tema, percebi uma analogia mais precisa: a UML se parece mais com uma biblioteca de ferramentas de modelagem.
+
+Cada diagrama é uma ferramenta disponível para representar determinado aspecto de um sistema, mas a utilização de um diagrama não obriga a utilização dos demais. Por outro lado, cada ferramenta dessa biblioteca possui regras rígidas de representação. Nesse sentido, a analogia com um protocolo continua válida: os símbolos e significados de cada diagrama não podem ser reinterpretados livremente sem comprometer a comunicação entre as pessoas que os utilizam.
+
+Em resumo: a UML funciona como uma biblioteca de ferramentas, mas cada ferramenta dentro dessa biblioteca segue um protocolo de representação bem definido.
