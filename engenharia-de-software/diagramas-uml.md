@@ -58,3 +58,19 @@ Um exemplo de estado, ainda na marcenaria: "móvel instalado, aguardando aprova�
 Esses dois diagramas mostram a mesma informação — quais mensagens são trocadas entre os objetos de um sistema — mas de formas diferentes. O diagrama de sequência usa a posição vertical (de cima para baixo) para indicar a ordem das mensagens. O diagrama de comunicação usa números escritos ao lado das setas para indicar essa ordem, e organiza os objetos livremente, sem depender de uma linha do tempo vertical.
 
 O diagrama de sequência é mais fácil de ler, porque a ordem já está visualmente clara. Já o diagrama de comunicação é mais fácil de desenhar rápido, porque não precisa "esticar" o diagrama para a direita a cada novo objeto — o que faz sentido com a ideia de "UML como rascunho" vista anteriormente: comunicação tende a ser mais usado como rascunho rápido, e sequência como documentação mais detalhada.
+
+---
+
+## Nova entrada — 04/09/2026
+
+## Diagrama de Casos de Uso
+
+O diagrama de casos de uso mostra quem interage com o sistema e o que essas pessoas conseguem fazer com ele, sem entrar em como o sistema faz isso por dentro. Ele existe para colocar o foco no usuário: em vez de simplesmente listar características técnicas do sistema, ele força a pergunta "quem usa o sistema, e o que essa pessoa quer alcançar?".
+
+**Elementos:** um ator é algo com comportamento — uma pessoa (identificada pelo papel, não pelo nome), um sistema externo ou uma organização. Um caso de uso é a própria funcionalidade, sempre nomeada com um verbo, porque o verbo indica ação — e ação é justamente o que esse diagrama quer capturar (o que o sistema faz), diferente de um substantivo, que descreveria uma coisa ou estrutura (papel de outro diagrama, como o de classe).
+
+**Relacionamentos:** a associação é a ligação simples entre um ator e um caso de uso. A generalização é quando um caso de uso "filho" herda o comportamento de um "pai". E existem duas formas de dependência: o include, quando um caso de uso precisa obrigatoriamente do outro para acontecer, e o extend, quando é uma variação opcional que só ocorre em certas condições.
+
+**Exemplo (marcenaria):** os atores seriam o cliente e o projetista. Os casos de uso: Projetar, Aprovar, Confeccionar e Acrescentar. Confeccionar inclui obrigatoriamente Aprovar (não dá pra confeccionar sem o projeto ter sido aprovado antes). Acrescentar estende Aprovar (é uma variação opcional, que só acontece às vezes, durante o processo de aprovação).
+
+**Cenário x caso de uso — uma dúvida importante que resolvi durante o estudo:** no início, pensei que um cenário viria depois do caso de uso — por exemplo, que "aprovado sem mudança", "aprovado com acréscimo" e "reprovado por orçamento" seriam consequências posteriores do caso de uso Aprovar. Mas não é assim: o cenário é um caminho através do próprio caso de uso, não algo que vem depois dele. É como perguntar se o gol aconteceu antes ou depois da jogada — não faz sentido, porque o gol é uma das formas possíveis de a própria jogada terminar, não uma coisa que vem depois. Da mesma forma, "aprovado sem mudança" e as outras variações não vêm depois do caso de uso Aprovar — elas são o próprio Aprovar acontecendo de diferentes formas possíveis.
