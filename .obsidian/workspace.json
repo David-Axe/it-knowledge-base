@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fundamentos/terminologia/code-review.md",
+                "file": "fundamentos/terminologia/merge.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "code-review"
+              "title": "merge"
             }
           }
         ]
@@ -190,9 +190,10 @@
   },
   "active": "be9533d5a9477757",
   "lastOpenFiles": [
+    "fundamentos/terminologia/code-review.md",
+    "fundamentos/dados/README.md",
     "fundamentos/terminologia/merge.md",
     "fundamentos/terminologia/README.md",
-    "fundamentos/terminologia/code-review.md",
     "fundamentos/dados/bits.md",
     "README.md",
     "redes/tcp-udp.md",
@@ -201,7 +202,6 @@
     "redes/modelo-de-camadas.md",
     "redes/endereco-mac.md",
     "redes/endereco-ip.md",
-    "fundamentos/dados/README.md",
     "fundamentos/computador/sistema-operacional.md",
     "fundamentos/computador/README.md",
     "fundamentos/computador/placa-mae.md",
