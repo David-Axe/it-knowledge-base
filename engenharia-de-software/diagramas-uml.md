@@ -112,3 +112,19 @@ Em resumo: a UML funciona como uma biblioteca de ferramentas, mas cada ferrament
 Diagrama e especificação de casos de uso não são coisas separadas — são duas representações complementares do mesmo caso de uso. Isso já estava implícito na entrada anterior (que definia a especificação como "um texto detalhado que acompanha o diagrama"), mas retomando o tema ficou muito mais clara a relação entre os dois: o diagrama é a representação gráfica, resumida — mostra quem faz o quê. A especificação é a representação textual, detalhada — descreve como aquele mesmo caso de uso se desenrola, passo a passo, com pré-condições, pós-condições e fluxos alternativos.
 
 Os dois não substituem um ao outro, e não fazem sentido plenamente separados: a especificação sem o diagrama perde a visão geral rápida que o diagrama oferece; o diagrama sem a especificação deixa lacunas — não diz o que acontece quando algo foge do caminho padrão. Por isso os dois subsistem juntos: o diagrama dá o mapa, a especificação dá o passo a passo de cada trecho desse mapa.
+
+## Diagrama de Atividades
+
+O diagrama de atividades é um dos diagramas comportamentais mais completos da UML[cite: 1]. Enquanto o diagrama de casos de uso fornece uma visão macro — mostrando quem interage com o sistema e quais funcionalidades principais ele aciona —, o diagrama de atividades desce para o "como funcional", detalhando passo a passo a execução interna de uma rotina[cite: 1]. Ele funciona graficamente de forma semelhante aos fluxogramas tradicionais da administração de empresas[cite: 1], permitindo documentar aspectos funcionais, esclarecer requisitos e mapear fluxos complexos.
+
+**Quando utilizar:** Assim como os demais diagramas da UML, ele não é de uso obrigatório em todos os projetos. Sua aplicação faz sentido em contextos específicos que exigem maior detalhamento, como sistemas críticos onde uma falha gera grande impacto, cenários em que o cliente precisa visualizar com clareza o fluxo operacional (ajudando a alinhar o software à rotina real do negócio)[cite: 1], ou projetos que dispõem de tempo para uma documentação aprofundada.
+
+**Elementos fundamentais:**
+* **Estados iniciais e finais:** Marcam o início e o encerramento do fluxo[cite: 1].
+* **Atividades:** Representam as ações executadas pelo sistema[cite: 1].
+* **Decisões:** Pontos em que o fluxo pode seguir caminhos distintos com base em condições[cite: 1] (por exemplo, verificar se um produto já está cadastrado ou se um pedido está pago).
+* **Bifurcação e união:** Permiten dividir fluxos para que ocorram de forma concomitante e, posteriormente, reuni-los[cite: 1].
+* **Raias (Swimlanes):** Organizam o diagrama delimitando responsabilidades entre atores, objetos ou componentes do sistema (como Cliente, Vendas e Estoque)[cite: 1].
+
+**Analogia estrutural — Raias e o modelo TCP/IP:** 
+Pensando em arquitetura, as raias funcionam de forma semelhante às camadas do modelo de redes TCP/IP: cada parte do sistema (ou setor da empresa) tem sua responsabilidade bem delimitada e executa sua função dentro de uma divisão clara de papéis. No entanto, diferentemente de um protocolo de rede estrito — onde as regras devem ser seguidas rigidamente "sim ou sim" —, os processos de negócio reais lidam com o fator humano e caminhos alternativos (como um cliente que desiste da compra no meio do caminho), exigindo que o diagrama preveja essas variações para evitar falhas operacionais e gargalos de comunicação entre diferentes setores.
