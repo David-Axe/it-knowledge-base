@@ -39,7 +39,7 @@ O mesmo diagrama pode ser lido de formas diferentes dependendo do papel de quem 
 
 ----
 
-## Nova entrada — 04/09/2026 (continuação)
+## Nova entrada — **Fonte:** Faculdade ADS 04/09/2026 (continuação)
 
 **Os cinco diagramas mais usados**
 
@@ -61,7 +61,7 @@ O diagrama de sequência é mais fácil de ler, porque a ordem já está visualm
 
 ---
 
-## Nova entrada — 04/09/2026
+## Nova entrada — **Fonte:** Faculdade ADS 04/09/2026
 
 ## Diagrama de Casos de Uso
 
@@ -77,7 +77,7 @@ O diagrama de casos de uso mostra quem interage com o sistema e o que essas pess
 
 ---
 
-## Nova entrada — 05/09/2026
+## Nova entrada — **Fonte:** Faculdade ADS 05/09/2026
 
 ## Especificação de Casos de Uso
 
@@ -105,7 +105,7 @@ Em resumo: a UML funciona como uma biblioteca de ferramentas, mas cada ferrament
 
 ---
 
-## Nova entrada — 07/09/2026
+## Nova entrada — **Fonte:** Faculdade ADS 07/09/2026
 
 ## Ajustes e refinamentos a conceitos anteriores
 
