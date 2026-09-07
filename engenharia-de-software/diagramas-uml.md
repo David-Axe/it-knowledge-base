@@ -102,3 +102,13 @@ UML como "biblioteca com protocolo interno", não como protocolo puro. Em uma en
 Cada diagrama é uma ferramenta disponível para representar determinado aspecto de um sistema, mas a utilização de um diagrama não obriga a utilização dos demais. Por outro lado, cada ferramenta dessa biblioteca possui regras rígidas de representação. Nesse sentido, a analogia com um protocolo continua válida: os símbolos e significados de cada diagrama não podem ser reinterpretados livremente sem comprometer a comunicação entre as pessoas que os utilizam.
 
 Em resumo: a UML funciona como uma biblioteca de ferramentas, mas cada ferramenta dentro dessa biblioteca segue um protocolo de representação bem definido.
+
+---
+
+## Nova entrada — 07/09/2026
+
+## Ajustes e refinamentos a conceitos anteriores
+
+Diagrama e especificação de casos de uso não são coisas separadas — são duas representações complementares do mesmo caso de uso. Isso já estava implícito na entrada anterior (que definia a especificação como "um texto detalhado que acompanha o diagrama"), mas retomando o tema ficou muito mais clara a relação entre os dois: o diagrama é a representação gráfica, resumida — mostra quem faz o quê. A especificação é a representação textual, detalhada — descreve como aquele mesmo caso de uso se desenrola, passo a passo, com pré-condições, pós-condições e fluxos alternativos.
+
+Os dois não substituem um ao outro, e não fazem sentido plenamente separados: a especificação sem o diagrama perde a visão geral rápida que o diagrama oferece; o diagrama sem a especificação deixa lacunas — não diz o que acontece quando algo foge do caminho padrão. Por isso os dois subsistem juntos: o diagrama dá o mapa, a especificação dá o passo a passo de cada trecho desse mapa.
