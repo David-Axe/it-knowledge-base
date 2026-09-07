@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a2d8e8c8bbad878b",
+        "id": "11d4cba13714dd98",
         "type": "tabs",
         "children": [
           {
-            "id": "7bf2a42c4cd01d48",
+            "id": "be9533d5a9477757",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fundamentos/terminologia/merge.md",
-                "mode": "source",
+                "file": "fundamentos/terminologia/code-review.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "merge"
+              "title": "code-review"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fundamentos/terminologia/merge.md",
+                "file": "fundamentos/dados/bits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fundamentos/terminologia/merge.md",
+                "file": "fundamentos/dados/bits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fundamentos/terminologia/merge.md",
+                "file": "fundamentos/dados/bits.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,15 +188,24 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "7bf2a42c4cd01d48",
+  "active": "be9533d5a9477757",
   "lastOpenFiles": [
-    "fundamentos/computador/cpu.md",
-    "fundamentos/terminologia/code-review.md",
     "fundamentos/terminologia/merge.md",
     "fundamentos/terminologia/README.md",
-    "redes/endereco-ip.md",
-    "redes/portas.md",
+    "fundamentos/terminologia/code-review.md",
+    "fundamentos/dados/bits.md",
+    "README.md",
     "redes/tcp-udp.md",
+    "redes/README.md",
+    "redes/portas.md",
+    "redes/modelo-de-camadas.md",
+    "redes/endereco-mac.md",
+    "redes/endereco-ip.md",
+    "fundamentos/dados/README.md",
+    "fundamentos/computador/sistema-operacional.md",
+    "fundamentos/computador/README.md",
+    "fundamentos/computador/placa-mae.md",
+    "fundamentos/computador/cpu.md",
     "engenharia-de-software/diagramas-uml.md"
   ]
 }
