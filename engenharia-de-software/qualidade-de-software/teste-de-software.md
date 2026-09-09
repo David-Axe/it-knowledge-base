@@ -1,6 +1,6 @@
 # Teste de Software
 
-Data: 07/09/2026 | Fonte: Faculdade ADS
+Data: 08/09/2026 | Fonte: Faculdade ADS
 
 O teste de software é uma atividade integrante do processo de desenvolvimento cujo objetivo principal é revelar e encontrar falhas para garantir a qualidade do produto final. Na Engenharia de Software, entende-se por qualidade o atendimento rigoroso aos [[diagramas-uml|requisitos levantados]]. O propósito do teste não é "provar que o software não tem erros" — o que é inviável na prática —, mas sim expor inconsistências e diminuir riscos antes da entrega.
 
