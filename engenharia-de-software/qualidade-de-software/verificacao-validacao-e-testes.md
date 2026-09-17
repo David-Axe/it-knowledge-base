@@ -17,3 +17,15 @@ O processo de garantia da qualidade em Engenharia de Software fundamenta-se nos 
 
 **Relação com QA/QC:**
 Verificação e Validação não são sinônimos de QA e QC, mas há proximidade entre os conceitos. Verificação, por focar no processo e nas etapas intermediárias, se aproxima do papel mais abrangente de [[qa-qc|QA]]. Validação, por focar em confirmar que o produto atende à necessidade real do usuário, tem relação parcial com [[qa-qc|QC]] — embora não sejam idênticos: QC concentra-se em encontrar defeitos no produto já pronto, enquanto Validação é especificamente sobre confirmar que aquilo resolve o problema do usuário. Um sistema pode passar em todos os testes de QC e ainda falhar na Validação, se não for de fato o que o cliente precisava.
+
+---
+
+## Nova entrada — 17/09/2026 | Fonte: Faculdade ADS
+
+## A Regra dos 10 de Myers
+
+Proposta por Myers (1979), a Regra dos 10 estipula que o custo para identificar e corrigir um defeito multiplica-se por 10 a cada etapa que o problema avança no ciclo de vida do desenvolvimento:
+
+Desenho → Especificação → Construção → Teste → Produção
+
+Essa regra quantifica algo que já havia sido registrado aqui de forma qualitativa: a Análise Estática, por identificar falhas ainda na fase de requisitos e arquitetura, evita custos que crescem exponencialmente se o problema só for detectado em produção — incluindo refatorações complexas e danos à reputação da empresa.

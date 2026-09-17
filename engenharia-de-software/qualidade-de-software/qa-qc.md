@@ -23,3 +23,23 @@ Em empresas pequenas, onde uma única pessoa acompanha os requisitos, o processo
 - Revisar se um code review foi feito antes do merge → QA (auditoria de processo, não é teste).
 - Verificar se os requisitos foram documentados corretamente antes de começar a codificar → QA.
 - Rodar o sistema pronto e comparar com o que foi combinado no requisito para achar uma divergência → QC (mas a responsabilidade maior pelo motivo da divergência não ter sido pega antes continua sendo do processo de QA).
+
+---
+
+## Nova entrada — 17/09/2026 | Fonte: Faculdade ADS
+
+## Qualidade de Processos x Qualidade de Produtos
+
+A qualidade de software pode ser olhada por dois ângulos complementares:
+
+- **Qualidade de Processos:** organiza e padroniza os métodos de trabalho da equipe, buscando uma cultura de não tolerância a erros para prevenir falhas, otimizando prazos, estimativas de custo e alocação de recursos. É avaliada por modelos de maturidade.
+- **Qualidade de Produtos:** avalia o artefato tecnológico gerado durante o ciclo de desenvolvimento, aplicando baterias de testes para garantir que o sistema atenda aos requisitos do cliente antes da entrega.
+
+Essa distinção se conecta diretamente com o que já foi registrado aqui sobre QA e QC: Qualidade de Processos é, essencialmente, o que o profissional de QA supervisiona; Qualidade de Produtos é o que o profissional de QC avalia no produto pronto.
+
+## Modelos de Maturidade de Processos
+
+Para avaliar formalmente a Qualidade de Processos, existem modelos de maturidade reconhecidos:
+
+- **CMMI (Capability Maturity Model Integration):** modelo internacional com 5 níveis — Inicial (caótico), Gerenciado, Definido, Gerenciado Quantitativamente e Otimizado.
+- **MPS.BR (Melhoria do Processo de Software Brasileiro):** modelo nacional com 7 níveis, em ordem crescente — G (Parcialmente Gerenciado, nível de entrada), F (Gerenciado), E (Parcialmente Definido), D (Largamente Definido), C (Definido), B (Gerenciado Quantitativamente) e A (Em Otimização).
