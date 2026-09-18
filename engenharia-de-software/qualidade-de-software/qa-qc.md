@@ -43,3 +43,19 @@ Para avaliar formalmente a Qualidade de Processos, existem modelos de maturidade
 
 - **CMMI (Capability Maturity Model Integration):** modelo internacional com 5 níveis — Inicial (caótico), Gerenciado, Definido, Gerenciado Quantitativamente e Otimizado.
 - **MPS.BR (Melhoria do Processo de Software Brasileiro):** modelo nacional com 7 níveis, em ordem crescente — G (Parcialmente Gerenciado, nível de entrada), F (Gerenciado), E (Parcialmente Definido), D (Largamente Definido), C (Definido), B (Gerenciado Quantitativamente) e A (Em Otimização).
+
+---
+
+## Nova entrada — 18/09/2026 | Fonte: Faculdade ADS
+
+## Gerenciamento da Qualidade: três níveis hierárquicos
+
+O gerenciamento da qualidade se estrutura em três pilares hierárquicos, que aprofundam a distinção entre QA e QC já registrada aqui:
+
+- **Garantia da Qualidade (nível organizacional):** vem da cúpula da empresa. Define a cultura, os procedimentos, padrões e ferramentas organizacionais. Se a garantia não é estabelecida no topo, gera-se um efeito cascata que desestrutura todo o trabalho de desenvolvimento.
+- **Planejamento da Qualidade (nível do projeto):** adapta o plano geral da empresa para as necessidades e metas específicas de um determinado software ou momento.
+- **Controle da Qualidade (nível operacional):** executa a verificação no dia a dia para garantir que os processos e o plano do projeto estejam sendo seguidos na prática.
+
+## Independência das equipes (princípio de Sommerville)
+
+A equipe de desenvolvimento não deve ser responsável pelo próprio controle de qualidade. O desenvolvedor possui um "ponto cego" — não necessariamente por má-fé, mas por viés de confirmação e acidentes não percebidos. Ter uma equipe separada garante imparcialidade na avaliação técnica.

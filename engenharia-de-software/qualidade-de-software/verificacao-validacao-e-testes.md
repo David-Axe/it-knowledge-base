@@ -29,3 +29,23 @@ Proposta por Myers (1979), a Regra dos 10 estipula que o custo para identificar 
 Desenho → Especificação → Construção → Teste → Produção
 
 Essa regra quantifica algo que já havia sido registrado aqui de forma qualitativa: a Análise Estática, por identificar falhas ainda na fase de requisitos e arquitetura, evita custos que crescem exponencialmente se o problema só for detectado em produção — incluindo refatorações complexas e danos à reputação da empresa.
+
+---
+
+## Nova entrada — 18/09/2026 | Fonte: Faculdade ADS
+
+## Verificação e Validação — duas analogias
+
+Duas analogias ajudam a fixar a distinção entre Verificação e Validação já registrada aqui:
+
+- **Esqueleto x corpo em funcionamento:** a Verificação (análise estática) examina o código-fonte, a arquitetura e os requisitos sem executar o programa — é avaliar a "estrutura óssea" do software. A Validação (análise dinâmica) avalia o software em execução, com dados reais de entrada e saída — é examinar o "corpo em pleno funcionamento".
+- **Planta da casa x parede estrutural pronta:** alterar uma regra ainda na fase de Verificação é como mudar a planta da casa no computador, junto com o engenheiro — barato e simples. Corrigir um erro só na Validação, ou já em produção, é como mandar derrubar uma parede estrutural pronta: gera um custo astronômico de refatoração, material e mão de obra.
+
+## Custos da Qualidade: conformidade x não-conformidade
+
+Complementando a Regra dos 10 de Myers já registrada aqui, os custos da qualidade se dividem em duas categorias:
+
+- **Custos de Conformidade (investimento):** dividem-se em Prevenção (ações anteriores à codificação, como treinamento e padronização) e Avaliação (inspeções e baterias de teste antes do envio).
+- **Custos de Não-Conformidade (prejuízo):** dividem-se em Falhas Internas (defeitos identificados dentro da empresa antes da entrega) e Falhas Externas (defeitos descobertos pelo cliente já em produção).
+
+A Falha Externa é a categoria mais grave: pode gerar multas contratuais pesadas, destruir a reputação da marca e resultar em cancelamento de contratos, ao ponto de inviabilizar o negócio.
