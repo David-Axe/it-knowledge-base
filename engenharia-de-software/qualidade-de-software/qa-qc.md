@@ -72,3 +72,5 @@ Aprofundando a distinção entre Qualidade de Processo e Qualidade de Produto j�
 - **Qualidade do Produto (Controle da Qualidade / QC):** natureza reativa. Foca no resultado final e em artefatos intermediários, por meio de testes funcionais, medições e verificações, visando garantir a satisfação do cliente.
 
 **Efeito da falta de processo:** focar apenas na qualidade do produto (testes no final) gera alto volume de retrabalho e não impede a geração contínua de erros já na fase de escrita de código.
+
+**Nota sobre a nomenclatura — por que "SQA" tem o "S" e "QC" não:** QA e QC, na forma curta, são termos que vêm da gestão da qualidade em geral (indústria, manufatura, normas como a família ISO 9000), aplicáveis a qualquer tipo de produto. SQA (*Software Quality Assurance*) é usado quando o texto quer deixar explícito que está tratando da aplicação desses princípios especificamente ao contexto de software — é comum em obras acadêmicas de Engenharia de Software, como Pressman. A ausência do "S" em QC não reflete uma distinção técnica de peso: é uma assimetria de convenção da literatura, não uma regra lógica.

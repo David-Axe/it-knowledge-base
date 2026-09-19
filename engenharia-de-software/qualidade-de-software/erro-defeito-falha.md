@@ -18,7 +18,7 @@ Essa cadeia ajuda a entender por que um mesmo problema pode ser pego em momentos
 
 Na Engenharia de Software, os termos Erro, Defeito e Falha possuem duas abordagens teóricas consagradas, a depender do foco da análise:
 
-**Abordagem 1 — Cadeia Técnica de Causa e Efeito (Norma IEEE 610.12 / ISTQB, seguida por Sommerville)**, já registrada acima: focada no comportamento técnico do código e na execução do sistema — Erro é o engano humano, Defeito é a imperfeição estática no código decorrente desse erro, e Falha é o comportamento incorreto manifestado em tempo de execução.
+**Abordagem 1 — Abordagem 1 — Cadeia Técnica de Causa e Efeito (norma IEEE 610.12 / ISTQB), já registrada acima segundo Koscianski e Soares (2007), tradição também seguida por autores como Sommerville: focada no comportamento técnico do código e na execução do sistema — Erro é o engano humano, Defeito é a imperfeição estática no código decorrente desse erro, e Falha é o comportamento incorreto manifestado em tempo de execução.
 
 **Abordagem 2 — Linha do Tempo e Gestão do Processo (Pressman & Maxim, 2016)**: focada na Garantia da Qualidade (SQA) e no momento do ciclo de vida em que o problema é descoberto — Erro é o problema de qualidade identificado pela própria equipe **antes** do envio do software ao cliente (durante revisões, inspeções ou testes internos); Defeito é o problema identificado pelo cliente ou usuário final **depois** da entrega, em ambiente de produção.
 
