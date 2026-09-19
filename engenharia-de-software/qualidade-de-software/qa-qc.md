@@ -59,3 +59,16 @@ O gerenciamento da qualidade se estrutura em três pilares hierárquicos, que ap
 ## Independência das equipes (princípio de Sommerville)
 
 A equipe de desenvolvimento não deve ser responsável pelo próprio controle de qualidade. O desenvolvedor possui um "ponto cego" — não necessariamente por má-fé, mas por viés de confirmação e acidentes não percebidos. Ter uma equipe separada garante imparcialidade na avaliação técnica.
+
+---
+
+## Nova entrada — 19/09/2026 | Fonte: Faculdade ADS (Engenharia de Software)
+
+## SQA (proativo) x QC (reativo)
+
+Aprofundando a distinção entre Qualidade de Processo e Qualidade de Produto já registrada aqui:
+
+- **Qualidade do Processo (Garantia da Qualidade / SQA):** natureza proativa. Foca em como o software é desenvolvido — padrões, procedimentos, modelos de maturidade (CMMI, MPS.BR) e prevenção de falhas antes que afetem o produto.
+- **Qualidade do Produto (Controle da Qualidade / QC):** natureza reativa. Foca no resultado final e em artefatos intermediários, por meio de testes funcionais, medições e verificações, visando garantir a satisfação do cliente.
+
+**Efeito da falta de processo:** focar apenas na qualidade do produto (testes no final) gera alto volume de retrabalho e não impede a geração contínua de erros já na fase de escrita de código.
