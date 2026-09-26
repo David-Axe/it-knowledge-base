@@ -87,3 +87,19 @@ As APIs são importantes para segurança da informação porque representam pont
 Uma API precisa controlar, entre outras coisas, quem está fazendo a requisição, o que essa pessoa ou sistema pode fazer ([[Autenticação]] e [[Autorização]]), quais dados podem ser acessados e quais informações podem ser alteradas.
 
 Uma falha de autorização, por exemplo, pode permitir que um usuário autenticado acesse informações que pertencem a outro usuário.
+
+---
+
+## Nova entrada — 26/09/2026 | Fonte: Curiosidade durante estudo na Faculdade ADS — exploração superficial com IA
+
+**Nível de domínio: Conceitual/Panorâmico.**
+
+## Chaves de API, planos e limites
+
+Quando a API roda na nuvem (como serviços da OpenAI, Google ou gateways de pagamento), o acesso é controlado por mecanismos de identificação e regras de uso:
+
+- **Chave de API (API Key):** funciona como uma comanda eletrônica ou crachá VIP — identifica quem está fazendo a requisição e autoriza o uso.
+- **Níveis de acesso:**
+  - **Free Tier** (nível gratuito): acesso limitado, modelos mais simples ou poucas chamadas permitidas.
+  - **Paid Tier** (nível pago): acesso a recursos avançados, prioridade no processamento e maior volume de dados.
+- **Limite de Taxa (Rate Limit):** restrição que define quantas requisições um cliente pode fazer por minuto (ex.: máximo 3 chamadas/min no plano grátis). Evita que um único usuário sobrecarregue os servidores.

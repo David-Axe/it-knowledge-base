@@ -128,3 +128,11 @@ O diagrama de atividades é um dos diagramas comportamentais mais completos da U
 
 **Analogia estrutural — Raias e o modelo TCP/IP:** 
 Pensando em arquitetura, as raias funcionam de forma semelhante às camadas do modelo de redes TCP/IP: cada parte do sistema (ou setor da empresa) tem sua responsabilidade bem delimitada e executa sua função dentro de uma divisão clara de papéis. No entanto, diferentemente de um protocolo de rede estrito — onde as regras devem ser seguidas rigidamente "sim ou sim" —, os processos de negócio reais lidam com o fator humano e caminhos alternativos (como um cliente que desiste da compra no meio do caminho), exigindo que o diagrama preveja essas variações para evitar falhas operacionais e gargalos de comunicação entre diferentes setores.
+
+---
+
+## Nova entrada — 26/09/2026 | Fonte: Faculdade ADS
+
+## Nota de consolidação: a lista de cinco diagramas não é exaustiva
+
+Ao estudar [[cbse]], apareceu o Diagrama de Componentes — um diagrama estrutural da UML que não estava na lista original dos cinco diagramas mais usados registrada aqui. Isso não invalida a lista anterior (continuam sendo os mais comuns), mas vale reforçar: a UML tem outros diagramas estruturais além do de classe, como o de componentes, que usa a notação *lollipop* (pirulito) para representar interfaces fornecidas e requeridas entre componentes.
