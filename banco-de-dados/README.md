@@ -28,3 +28,38 @@ Oracle Corporation é a gigante de tecnologia dona da linguagem Java e do banco 
 **DBA — Database Administrator (fronteira avançada):** instalação, configuração e otimização do servidor do banco (tuning); gestão de segurança, privilégios de acesso, rotinas de backup, restauração e alta disponibilidade.
 
 **Engenheiro de Dados / BI (fronteira avançada):** construção de pipelines de movimentação em massa de dados entre múltiplos sistemas (processos ETL: Extract, Transform, Load — Extrair, Transformar, Carregar); estruturação de Data Warehouses e Data Lakes para geração de relatórios executivos e análise estratégica de negócios.
+
+---
+
+## Nova entrada — 07/10/2026 | Fonte: Faculdade ADS
+
+## Pilares iniciais
+
+- **Banco de dados:** coleção organizada de dados relacionados, que representam aspectos do mundo real.
+- **Minimundo (universo de discurso):** parte específica da realidade selecionada para ser gerenciada pelo sistema. Exemplo: os clientes, veículos e serviços de uma oficina mecânica.
+- **SGBD (Sistema Gerenciador de Banco de Dados):** software responsável pela definição, construção, manipulação, segurança e controle de acesso aos dados.
+
+A modelagem do minimundo corresponde ao projeto de banco de dados, uma das atividades da fase de [[diagramas-uml|projeto de software]]. Os níveis dessa modelagem estão em [[banco-de-dados/modelos-de-dados|modelos de dados]], e a forma como o SGBD se organiza por dentro está em [[banco-de-dados/arquitetura-de-sgbd|arquitetura de SGBD]].
+
+## SGBDs do mercado
+
+| SGBD | Tipo | Aplicação principal |
+| :--- | :--- | :--- |
+| PostgreSQL | Relacional (código aberto) | Projetos corporativos e engenharia de dados |
+| MySQL / MariaDB | Relacional (código aberto) | Aplicações web, e-commerce, sites de conteúdo |
+| Oracle Database | Relacional (proprietário) | Grandes corporações e setor financeiro |
+| SQL Server | Relacional (proprietário) | Ecossistemas corporativos e de nuvem do mesmo fornecedor |
+| SQLite | Relacional (*embedded*, embutido) | Aplicações móveis (Android/iOS) e desktop locais |
+| MongoDB | NoSQL (documentos) | Aplicações web modernas e APIs flexíveis |
+| Redis | NoSQL (chave-valor) | Cache (armazenamento temporário de alta velocidade) e sessões |
+| Neo4j | NoSQL (grafos) | Redes sociais, sistemas de recomendação e detecção de fraudes |
+
+## Papéis no ambiente de banco de dados
+
+Complementando as fronteiras de atuação já registradas acima:
+
+- **DBA (Database Administrator, administrador de banco de dados):** responsável pela infraestrutura, backups, recuperação, concessão de [[autenticacao-autorizacao|permissões de acesso]], segurança e *tuning* (ajuste fino de desempenho).
+- **Projetista (Database Designer):** mapeia o minimundo e cria os modelos conceitual e lógico.
+- **Desenvolvedor:** escreve o código da aplicação que realiza consultas e atualizações no banco.
+- **Usuário casual:** acessa o sistema eventualmente, para relatórios e análises.
+- **Usuário paramétrico/habitual:** opera as tarefas rotineiras do dia a dia no sistema.
