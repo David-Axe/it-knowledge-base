@@ -63,3 +63,20 @@ Complementando as fronteiras de atuação já registradas acima:
 - **Desenvolvedor:** escreve o código da aplicação que realiza consultas e atualizações no banco.
 - **Usuário casual:** acessa o sistema eventualmente, para relatórios e análises.
 - **Usuário paramétrico/habitual:** opera as tarefas rotineiras do dia a dia no sistema.
+
+---
+
+## Nova entrada — 13/10/2026 | Fonte: Faculdade ADS
+
+## SGBD: papel e componentes de um sistema de banco de dados
+
+Complementando a definição de SGBD já registrada acima: o SGBD é um conjunto de software responsável pelo gerenciamento eficiente de repositórios de dados, servindo de interface entre o banco de dados físico, os aplicativos e os usuários. Entre suas garantias estão a facilidade de consulta, a integridade, a segurança e o controle de concorrência (acesso simultâneo de vários usuários aos mesmos dados).
+
+Um sistema de banco de dados é formado por quatro componentes:
+
+1. **Dados:** ativo integrado e compartilhado pela organização, armazenado com baixa redundância.
+2. **Hardware:** dispositivos físicos que suportam o processamento — disco rígido ou SSD, memória RAM e [[cpu|CPU]].
+3. **Software:** o próprio SGBD e os aplicativos e interfaces que o utilizam.
+4. **Usuários:** DBAs, desenvolvedores e usuários finais, cujos papéis estão detalhados acima.
+
+A organização interna do SGBD, com seus módulos de processamento, está em [[banco-de-dados/arquitetura-de-sgbd|arquitetura de SGBD]].
