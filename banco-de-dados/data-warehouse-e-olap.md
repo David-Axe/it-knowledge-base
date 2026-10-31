@@ -34,3 +34,20 @@ Padrão de projeto multidimensional implementado em bancos de dados relacionais 
 
 - **Índices de mapa de bits (*Bitmap Indexes*):** usados em colunas de baixa cardinalidade (poucos valores distintos possíveis, como sexo, estado civil ou notas de 1 a 5). Substituem listas de endereços por vetores de bits (0 e 1) e usam operações binárias muito rápidas na memória (`AND`, `OR`) para responder a consultas complexas.
 - **Índices de junção (*Join Indexes*):** mapeiam previamente os endereços físicos (*rids*, identificadores de linha) dos registros da tabela de fatos com os das tabelas de dimensão, acelerando a execução de junções complexas em esquemas estrela.
+
+---
+
+## Nova entrada — 31/10/2026 | Fonte: Faculdade ADS
+
+## O processo ETL
+
+ETL (*Extract, Transform, Load*, extrair, transformar e carregar) é o processo que alimenta o data warehouse com dados vindos de várias origens.
+
+- **Extração (*Extract*):** recolhe dados brutos de origens heterogêneas, como sistemas legados (antigos), bancos relacionais, [[apis/README|APIs]], arquivos planos (*flat files*, arquivos de texto simples como o CSV) e a nuvem.
+- **Transformação (*Transform*):** etapa central, feita em uma área intermediária (*staging area*). Ali ocorrem a limpeza, a filtragem, a validação de regras de negócio, a formatação e a anonimização dos dados.
+- **Carga (*Load*):** deposita os dados já tratados no destino analítico, o data warehouse. Pode ser completa (total, recarrega tudo) ou incremental (carrega apenas o que mudou).
+
+## ETL x ELT
+
+- **ETL tradicional:** transforma os dados na área intermediária antes de carregá-los. É indicado para volumes menores e dados relacionais estruturados.
+- **ELT (*Extract, Load, Transform*, extrair, carregar e transformar):** carrega os dados diretamente no sistema de destino, geralmente na nuvem, e só depois os transforma. É indicado para grandes volumes e fontes escaláveis.

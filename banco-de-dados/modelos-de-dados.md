@@ -32,9 +32,9 @@ A comparação inicial entre SQL e NoSQL está em [[banco-de-dados/README|banco 
 
 Aprofundando as famílias já registradas acima, com funcionamento e casos de uso. O contexto do paradigma está em [[banco-de-dados/nosql|NoSQL e o modelo BASE]], e os SGBDs que as implementam estão na tabela de [[banco-de-dados/README|banco de dados]].
 
-| Tipo | Funcionamento | Casos de uso | Exemplos |
-| :--- | :--- | :--- | :--- |
-| Chave-valor (*Key-Value*) | Associa uma chave única a um valor ou bloco de dados. Leitura e escrita muito rápidas (alguns, como o Redis, operam na memória RAM). | Caches de sessão, carrinhos de compras, jogos online. | Redis, Dynamo, Voldemort. |
-| Documentos | Armazena dados em documentos semiestruturados (com organização interna, mas sem esquema fixo), em JSON, BSON ou XML. | Cadastros flexíveis, catálogos de e-commerce, APIs web. | MongoDB, CouchDB. |
-| Família de colunas (*Column-Family*) | Organiza e armazena os dados por colunas em vez de linhas, reduzindo a E/S (entrada e saída em disco) nas consultas. | Análise de séries temporais, Big Data, logs de sistemas. | Cassandra, HBase, BigTable. |
-| Grafos | Armazena dados como vértices (nós) e arestas (conexões), ambos com propriedades. | Redes sociais, sistemas de recomendação, detecção de fraudes. | Neo4j, InfoGrid. |
+| Tipo                                 | Funcionamento                                                                                                                        | Casos de uso                                                  | Exemplos                    |
+| :----------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------ | :-------------------------- |
+| Chave-valor (*Key-Value*)            | Associa uma chave única a um valor ou bloco de dados. Leitura e escrita muito rápidas (alguns, como o Redis, operam na memória RAM). | Caches de sessão, carrinhos de compras, jogos online.         | Redis, Dynamo, Voldemort.   |
+| Documentos                           | Armazena dados em documentos semiestruturados (com organização interna, mas sem esquema fixo), em JSON, BSON ou XML.                 | Cadastros flexíveis, catálogos de e-commerce, APIs web.       | MongoDB, CouchDB.           |
+| Família de colunas (*Column-Family*) | Organiza e armazena os dados por colunas em vez de linhas, reduzindo a E/S (entrada e saída em disco) nas consultas.                 | Análise de séries temporais, Big Data, logs de sistemas.      | Cassandra, HBase, BigTable. |
+| Grafos                               | Armazena dados como vértices (nós) e arestas (conexões), ambos com propriedades.                                                     | Redes sociais, sistemas de recomendação, detecção de fraudes. | Neo4j, InfoGrid.            |
