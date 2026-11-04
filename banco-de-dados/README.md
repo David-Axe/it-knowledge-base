@@ -80,3 +80,14 @@ Um sistema de banco de dados é formado por quatro componentes:
 4. **Usuários:** DBAs, desenvolvedores e usuários finais, cujos papéis estão detalhados acima.
 
 A organização interna do SGBD, com seus módulos de processamento, está em [[banco-de-dados/arquitetura-de-sgbd|arquitetura de SGBD]].
+
+---
+
+## Nova entrada — 04/11/2026 | Fonte: Faculdade ADS
+
+## Administrador de Dados (DA) x Administrador de Banco de Dados (DBA)
+
+Complementando o papel do DBA já registrado acima, existe uma distinção entre dois cargos que parecem iguais:
+
+- **Administrador de Dados (DA, *Data Administrator*):** tem visão estratégica e corporativa. Define o modelo de dados da organização e estabelece políticas globais de nomenclatura, governança e compartilhamento dos dados.
+- **Administrador de Banco de Dados (DBA):** papel técnico, focado em SGBDs específicos. Cuida da modelagem física, da criação de scripts DDL e DML, do monitoramento de desempenho, da [[banco-de-dados/seguranca-de-banco-de-dados|segurança]] e das rotinas de contingência, como as de [[banco-de-dados/manutencao-de-banco-de-dados|manutenção]].

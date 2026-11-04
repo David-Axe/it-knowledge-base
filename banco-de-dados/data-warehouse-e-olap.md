@@ -51,3 +51,17 @@ ETL (*Extract, Transform, Load*, extrair, transformar e carregar) é o processo 
 
 - **ETL tradicional:** transforma os dados na área intermediária antes de carregá-los. É indicado para volumes menores e dados relacionais estruturados.
 - **ELT (*Extract, Load, Transform*, extrair, carregar e transformar):** carrega os dados diretamente no sistema de destino, geralmente na nuvem, e só depois os transforma. É indicado para grandes volumes e fontes escaláveis.
+
+---
+
+## Nova entrada — 04/11/2026 | Fonte: Faculdade ADS
+
+## Níveis de decisão e necessidade de dados
+
+Cada nível gerencial de uma organização precisa de dados diferentes:
+
+- **Baixa gerência (operacional):** foco em transações curtas do dia a dia e em relatórios de exceção, baseados nos bancos operacionais (OLTP).
+- **Média gerência (tática):** exige dados integrados e resumidos de vários setores ou departamentos.
+- **Alta gerência (estratégica):** precisa da integração entre dados internos resumidos e fontes externas, para o planejamento corporativo.
+
+Quanto mais alto o nível de decisão, mais integrados e resumidos são os dados necessários, e é isso que justifica um repositório analítico como o data warehouse, em vez de consultar direto os bancos operacionais.
